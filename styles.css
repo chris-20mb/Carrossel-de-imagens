@@ -1,0 +1,58 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div#carousel-card{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-container
+{
+    width: 100px; /* Largura do container da foto */
+    height: 100px; /* Altura do container da foto */
+    overflow: hidden; /* Isso irá ocultar qualquer parte da imagem que ultrapassar o tamanho do container */
+    border-radius: 50%; /* Isso irá arredondar as bordas tornando-a um círculo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Uma leve sombra para destacar a foto */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-container img {
+    width: 100%; /* Faz a imagem preencher todo o container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+}
+
+div#carousel-card{
+    width: 288px;
+    height: 403px;
+}
+
+
+p#info{
+   
+    width: 254px;
+    height: 172px;
+    text-align: justify;
+}
+
+.button-container{
+    position: relative;
+    
+}
+
+
+
+
